@@ -9,8 +9,22 @@
   "bin": {
     "outside": "bin/outside"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrh960125/publish.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "weather",
+    "forecast",
+    "rain"
+  ],
+  "preferGlobal": true,
   "author": "carriage",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/mrh960125/publish#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "minimist": "^1.2.0",
